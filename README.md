@@ -38,6 +38,19 @@ Inicia R en la terminal y ejecuta:
 ```r
     install.packages(c("rmarkdown", "rticles", "bookdown","prettydoc","flexdashboard"))
 ```
+Luego vuelve a la terminal normal con q() e instala pandoc para poder generar el knit
+En **Linux (Debian/Ubuntu)**:
+
+```bash
+    sudo apt update
+    sudo apt install pandoc
+```
+
+En **Windows**:
+
+1. Ve a [https://pandoc.org/installing.html](https://pandoc.org/installing.html)
+2. Descarga el instalador para Windows y sigue las instrucciones.
+
 
 ### 🧩 Clona el repositorio en tu máquina local
 
