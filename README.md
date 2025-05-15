@@ -39,6 +39,7 @@ Inicia R en la terminal y ejecuta:
     install.packages(c("rmarkdown", "rticles", "bookdown","prettydoc","flexdashboard"))
 ```
 Luego vuelve a la terminal normal con q() e instala pandoc para poder generar el knit
+
 En **Linux (Debian/Ubuntu)**:
 
 ```bash
